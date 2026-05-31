@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // Google Script redirect 302 là bình thường, không cần check res.ok
-        alert("Đăng ký thành công!\nTài liệu sẽ được gửi qua Zalo/Email của bạn.");
+        alert("Đăng ký thành công!\nTài liệu sẽ được gửi qua Zalo của bạn.");
         form.reset();
         if (modal) modal.style.display = "none";
       } catch (error) {
