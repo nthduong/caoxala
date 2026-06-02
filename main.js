@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const GOOGLE_SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbxr_aHp9TPPDTIGCVJkncCwo1xGMWVhVCs-8tE9mBqpcTSHmRR61qn_FnuklGgT_R1Z/exec";
+    "https://script.google.com/macros/s/AKfycbz3YcWNgwn1GGYia9-zsYHiqalPAHFrLrMxvDA3NP66bXtOu-vLOdFijh6qAAK0dVi-/exec?key=MY_SECRET_123";
 
   // --- Security: Rate Limiting & Validation ---
   const SUBMIT_INTERVAL = 5000;
