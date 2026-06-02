@@ -558,6 +558,11 @@ body {
   text-align: center;
 }
 
+.data-table-box p {
+  padding: 15px;
+  margin: 0;
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
