@@ -125,13 +125,21 @@
     </div>
     <header class="header">
       <div class="container">
-        <a href="/" class="logo"
-          ><div class="logo-v">
-            <img src="./img/logo_caoxala.png" alt="Logo thông tin Vinhomes Cao Xà Lá" decoding="async" />
-          </div>
-          <div class="logo-text">VINHOMES <span>GALAXY</span></div></a
-        >
-        <ul class="nav">
+        <div class="header-wrap">
+          <a href="/" class="logo"
+            ><div class="logo-v">
+              <img src="./img/logo_caoxala.png" alt="Logo thông tin Vinhomes Cao Xà Lá" decoding="async" />
+            </div>
+            <div class="logo-text">VINHOMES <span>GALAXY</span></div></a
+          >
+          <button class="hamburger-menu" id="hamburger-btn" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <ul class="nav" id="nav-menu">
           <li><a href="#overview">Tổng quan</a></li>
           <li><a href="#location">Vị trí</a></li>
           <li><a href="#amenities">Tiện ích</a></li>
@@ -291,7 +299,7 @@
               sinh hoạt, nghỉ ngơi và giải trí ngay trong nội khu.
             </p>
 
-            <h3>Các tiện ích nổi bật</h3>
+            <h3 style="margin-top: 5px">Các tiện ích nổi bật</h3>
             <ul>
               <li>
                 <strong>Không gian xanh và đường dạo bộ:</strong> giúp cư dân có nơi thư giãn mà không cần di chuyển xa.
@@ -448,12 +456,12 @@
                 </tr>
                 <tr>
                   <td>4PN</td>
-                  <td>~130 – 138 m²</td>
+                  <td>~130–138 m²</td>
                   <td>Khoảng 23 – 30 tỷ</td>
                 </tr>
                 <tr>
                   <td>Penthouse</td>
-                  <td>~150 – 300 m²</td>
+                  <td>~150–300 m²</td>
                   <td>Khoảng 30 - 40 tỷ</td>
                 </tr>
               </table>
@@ -595,7 +603,10 @@
         </div>
         <div>
           <h4>Cam kết bảo mật</h4>
-          <p class="footer-security">Chúng tôi cam kết giữ an toàn thông tin cá nhân của bạn và không tiết lộ, mua bán hoặc chia sẻ cho bên thứ ba, trừ khi có sự đồng ý của bạn hoặc theo quy định của pháp luật.</p>
+          <p class="footer-security">
+            Chúng tôi cam kết giữ an toàn thông tin cá nhân của bạn và không tiết lộ, mua bán hoặc chia sẻ cho bên thứ
+            ba, trừ khi có sự đồng ý của bạn hoặc theo quy định của pháp luật.
+          </p>
         </div>
       </div>
       <div class="container" style="text-align: center; margin-top: 20px; font-size: 11px; opacity: 0.5">
