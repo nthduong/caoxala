@@ -318,7 +318,7 @@ body {
 .zalo-fixed-button {
   position: fixed;
   left: 20px;
-  bottom: 20px;
+  bottom: 40px;
   z-index: 1100;
   display: inline-flex;
   align-items: center;
@@ -341,14 +341,14 @@ body {
 }
 
 .zalo-fixed-button img {
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
   display: block;
   border-radius: 50%;
 }
 
 .zalo-fixed-button span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -356,17 +356,19 @@ body {
 @media (max-width: 767px) {
   .zalo-fixed-button {
     left: 12px;
-    bottom: 12px;
-    padding: 8px 10px;
+    bottom: 24px;
+    padding: 2px 4px;
+    padding-right: 10px;
+    gap: 4px;
   }
 
   .zalo-fixed-button img {
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
   }
 
   .zalo-fixed-button span {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
