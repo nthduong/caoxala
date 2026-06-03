@@ -120,7 +120,7 @@
     <div class="announcement-bar">
       <div class="container bar-flex">
         <span>Cập nhật bảng giá, mặt bằng và chính sách Vinhomes Cao Xà Lá</span
-        ><button class="open-modal-btn">XEM NGAY</button>
+        ><button type="button" class="btn-download-nav open-modal-btn">XEM NGAY</button>
       </div>
     </div>
     <header class="header">
@@ -140,7 +140,7 @@
           <li><a href="#highlights">Đầu tư</a></li>
         </ul>
         <div class="header-actions">
-          <button class="btn-download-nav open-modal-btn">NHẬN TÀI LIỆU VÀ BẢNG GIÁ</button
+          <button type="button" class="btn-download-nav open-modal-btn">NHẬN TÀI LIỆU VÀ BẢNG GIÁ</button
           ><a href="tel:0362567898" class="hotline-btn">Hotline: 0362.567.898</a>
         </div>
       </div>
@@ -161,11 +161,8 @@
     <main class="container">
       <div class="main-grid">
         <div class="content-area article-content">
-          <h2 class="heading-first">Vinhomes Cao Xà Lá</h2>
-          <p>
-            Vinhomes Cao Xà Lá là dự án khu đô thị hiện đại, được quy hoạch trên nền khu công nghiệp cũ, hướng tới không
-            gian sống xanh và đồng bộ.
-          </p>
+          <h2 class="heading-first">Dự Án Vinhomes Cao Xà Lá</h2>
+          <p>Vinhomes Cao Xà Lá là dự án khu đô thị hiện đại, hướng tới không gian sống xanh và đồng bộ.</p>
           <p>
             Dự án sở hữu vị trí đắc địa tại trung tâm mở rộng phía Tây Hà Nội, kết nối thuận tiện các trục đường lớn,
             cùng hệ tiện ích của Vinhomes như trường học, thương mại, công viên và thể thao.
@@ -240,17 +237,20 @@
               </tr>
             </table>
           </div>
-          <div class="cta-download">
-            <h3>Nhận bộ tài liệu trước khi so sánh căn</h3>
-            <p>
-              Tài liệu nên có trước khi quyết định gồm bảng giá, mặt bằng tổng thể, layout từng loại căn, chính sách
-              thanh toán, danh sách căn còn phù hợp và các điều kiện giữ chỗ tại thời điểm tư vấn.
-            </p>
-            <div style="margin-top: 15px">
-              <button class="btn-submit open-modal-btn" style="width: auto; padding: 12px 30px">
-                NHẬN BẢNG GIÁ & MẶT BẰNG
-              </button>
-            </div>
+          <div class="cta-download lead-form-card">
+            <h3>TẢI BẢNG GIÁ VÀ TÀI LIỆU</h3>
+            <p>Tài liệu, bảng giá cập nhật mới nhất hôm nay</p>
+            <form id="cta-form-1" class="visible-lead-form">
+              <div class="form-group">
+                <input type="text" name="fullname" placeholder="Họ và tên" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" name="phone" placeholder="Số điện thoại" required />
+              </div>
+              <input type="text" name="website" style="display: none" tabindex="-1" autocomplete="off" />
+              <button type="submit" class="btn-submit">Tải ngay</button>
+              <p class="cta-note">Bảng giá, tài liệu sẽ được gửi qua Zalo ngay sau khi đăng ký.</p>
+            </form>
           </div>
           <div id="location">
             <h2>Vị trí Vinhomes Cao Xà Lá</h2>
@@ -259,42 +259,22 @@
               Vinhomes Cao Xà Lá nằm tại 233–235 Nguyễn Trãi, Thanh Xuân, Hà Nội, khu đất vàng trung tâm phía Tây Thủ
               đô.
             </p>
-            <p>Dự án kết nối nhanh đến Ngã Tư Sở, Trường Chinh, Khuất Duy Tiến và các quận nội thành.</p>
-            <p>Vị trí đắc địa giúp dự án có tiềm năng tăng giá mạnh và thuận tiện an cư, đầu tư.</p>
+
+            <ul>
+              <li><strong>2 phút:</strong> Đến Tuyến metro Cát Linh - Hà Đông.</li>
+
+              <li><strong>4 phút:</strong>Đến Royal City - Ngã Tư Sở, Đường Láng.</li>
+
+              <li><strong>10 phút:</strong>Đến Hồ Hoàn Kiếm, Trung Tâm Quận Hai Bà Trưng, Đống Đa.</li>
+
+              <li><strong>25 phút</strong> Đến Sân bay Nội Bài.</li>
+            </ul>
             <img
               src="./img/Vi-tri-Vinhomes-Cao-Xa-La.jpg"
               alt="Vị trí Vinhomes Cao Xà Lá trên trục Nguyễn Trãi"
               loading="lazy"
               decoding="async"
             />
-            <h3>Kết nối giao thông đáng chú ý</h3>
-
-            <p>
-              Vinhomes Cao Xà Lá nằm tại Nguyễn Trãi, sở hữu vị trí trung tâm giúp kết nối nhanh đến các trục giao thông
-              lớn của Hà Nội.
-            </p>
-
-            <ul>
-              <li>
-                <strong>Nguyễn Trãi – Trần Phú:</strong> trong khu vực trục chính đi Thanh Xuân – Hà Đông, khu vực đông
-                dân và thương mại lớn.
-              </li>
-
-              <li>
-                <strong>Ngã Tư Sở – Trường Chinh – Láng:</strong> trong mạng lưới giao thông quan trọng đi Đống Đa, Cầu
-                Giấy và khu văn phòng phía Tây.
-              </li>
-
-              <li>
-                <strong>Giải Phóng – Kim Đồng:</strong> trong tuyến kết nối về Hai Bà Trưng, Hoàn Kiếm và khu vực phía
-                Nam Hà Nội.
-              </li>
-
-              <li>
-                <strong>Metro Cát Linh – Hà Đông:</strong> trong hệ thống giao thông công cộng, hỗ trợ di chuyển bằng
-                tàu điện, giảm áp lực đường bộ.
-              </li>
-            </ul>
 
             <h3>Khả năng cho thuê của dự án</h3>
             <p>
@@ -310,17 +290,7 @@
               Vinhomes Cao Xà Lá được quy hoạch theo mô hình khu đô thị hiện đại, hướng đến việc đáp ứng đầy đủ nhu cầu
               sinh hoạt, nghỉ ngơi và giải trí ngay trong nội khu.
             </p>
-            <p>
-              Hệ thống tiện ích được thiết kế đồng bộ, phân bổ hợp lý giữa không gian sống, dịch vụ và cảnh quan, giúp
-              cư dân có trải nghiệm sống thuận tiện và ổn định lâu dài.
-            </p>
 
-            <img
-              src="./img/Tien-ich-Vinhomes-Cao-Xa-La.jpg"
-              alt="Tiện ích Vinhomes Cao Xà Lá"
-              loading="lazy"
-              decoding="async"
-            />
             <h3>Các tiện ích nổi bật</h3>
             <ul>
               <li>
@@ -343,107 +313,117 @@
                 riêng tư.
               </li>
             </ul>
+            <img
+              src="./img/Tien-ich-Vinhomes-Cao-Xa-La.jpg"
+              alt="Tiện ích Vinhomes Cao Xà Lá"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div id="floorplan">
             <h2>Mặt bằng Vinhomes Cao Xà Lá</h2>
             <p>
-              Mặt bằng Vinhomes Cao Xà Lá được quy hoạch theo định hướng khu đô thị hiện đại, tối ưu không gian sống và
-              mật độ xây dựng hợp lý.
+              Mặt bằng Vinhomes Cao Xà Lá được quy hoạch hiện đại, mật độ hợp lý, các tòa bố trí khoa học đảm bảo thông
+              thoáng, đón sáng gió tự nhiên và kết nối thuận tiện với tiện ích nội khu.
             </p>
-            <p>
-              Các tòa căn hộ được bố trí khoa học, đảm bảo tầm nhìn thông thoáng, đón gió và ánh sáng tự nhiên, đồng
-              thời kết nối thuận tiện với hệ thống tiện ích nội khu.
-            </p>
-            <h3>Căn 1 phòng ngủ</h3>
-            <ul>
-              <li>Phù hợp người độc thân, cặp đôi trẻ, mua cho con đi học hoặc đầu tư cho thuê.</li>
-              <li>Khoảng 45–55 m².</li>
-              <li>Ưu điểm là giá dễ tiếp cận, nhu cầu thuê ổn định.</li>
-            </ul>
-            <img
-              src="./img/Mat-bang-1-phong-ngu-Vinhomes-Cao-Xa-La.jpg"
-              alt="Mặt bằng căn hộ 1 phòng ngủ Vinhomes Cao Xà Lá"
-              loading="lazy"
-              decoding="async"
-            />
-            <h3>Căn 2 phòng ngủ</h3>
-            <ul>
-              <li>
-                Căn 2 phòng ngủ là loại hình phổ biến nhất, phù hợp gia đình trẻ, vợ chồng có con nhỏ hoặc khách thuê
-                chuyên gia.
-              </li>
-              <li>Koảng 65–85 m².</li>
-              <li>
-                Ưu tiên căn có không gian sinh hoạt chung hợp lý, thiết kế dễ sử dụng và thuận tiện trong quá trình sinh
-                hoạt hằng ngày.
-              </li>
-            </ul>
-            <img
-              src="./img/Mat-bang-can-2-phong-ngu-Vinhomes-Cao-Xa-La.jpg"
-              alt="Mặt bằng căn hộ 2 phòng ngủ Vinhomes Cao Xà Lá"
-              loading="lazy"
-              decoding="async"
-            />
-            <h3>Căn 3 phòng ngủ</h3>
-            <ul>
-              <li>
-                Căn 3 phòng ngủ phù hợp gia đình nhiều thế hệ hoặc gia đình có 2–3 con, cần không gian sinh hoạt rộng
-                rãi.
-              </li>
-              <li>Khoảng 90–120 m².</li>
-              <li>
-                Ưu điểm là không gian rộng, dễ bố trí sinh hoạt riêng cho từng thành viên, phù hợp ở lâu dài hoặc cho
-                thuê nhóm gia đình.
-              </li>
-            </ul>
-            <img
-              src="./img/Mat-bang-can-3-phong-ngu-Vinhomes-Cao-Xa-La.jpg"
-              alt="Mặt bằng căn hộ 3 phòng ngủ Vinhomes Cao Xà Lá"
-              loading="lazy"
-              decoding="async"
-            />
-            <h3>4 phòng ngủ, Duplex, Penthouse và căn diện tích lớn: mua vì trải nghiệm sống khác biệt</h3>
-            <ul>
-              <li>
-                Căn 4 phòng ngủ phù hợp gia đình nhiều thế hệ hoặc gia đình cần không gian sống rộng rãi, riêng tư.
-              </li>
-              <li>Diện tích lớn, công năng đầy đủ, đáp ứng nhu cầu ở lâu dài hoặc nâng cao chất lượng sống.</li>
-              <li>Ưu điểm là không gian thoáng, nhiều phòng chức năng và mức độ riêng tư cao.</li>
-            </ul>
-            <img
-              src="./img/Mat-bang-can-Dual-Key-Vinhomes-Cao-Xa-La.jpg"
-              alt="Mặt bằng căn hộ diện tích lớn Vinhomes Cao Xà Lá"
-              loading="lazy"
-              decoding="async"
-            />
-             <div class="cta-download">
+
+            <div class="floorplan-cards">
+              <article class="floorplan-card">
+                <h3>Căn 1 phòng ngủ</h3>
+                <p>Phù hợp người độc thân, cặp đôi trẻ, mua cho con đi học hoặc đầu tư cho thuê.</p>
+                <ul>
+                  <li>Diện tích khoảng 45–55 m².</li>
+                  <li>Giá dễ tiếp cận, phù hợp nhu cầu an cư và cho thuê.</li>
+                  <li>Thiết kế nhỏ gọn, tiện sử dụng với không gian sinh hoạt hiệu quả.</li>
+                </ul>
+                <img
+                  src="./img/Mat-bang-1-phong-ngu-Vinhomes-Cao-Xa-La.jpg"
+                  alt="Mặt bằng căn hộ 1 phòng ngủ Vinhomes Cao Xà Lá"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <button type="button" class="btn-submit open-modal-btn">Tải chi tiết giá</button>
+              </article>
+
+              <article class="floorplan-card">
+                <h3>Căn 2 phòng ngủ</h3>
+                <p>Loại hình phổ biến, phù hợp gia đình trẻ và khách thuê chuyên gia.</p>
+                <ul>
+                  <li>Diện tích khoảng 65–85 m².</li>
+                  <li>Không gian chung và phòng ngủ cân bằng.</li>
+                  <li>Tiện ích phù hợp cho nhu cầu ở thực và cho thuê dài hạn.</li>
+                </ul>
+                <img
+                  src="./img/Mat-bang-can-2-phong-ngu-Vinhomes-Cao-Xa-La.jpg"
+                  alt="Mặt bằng căn hộ 2 phòng ngủ Vinhomes Cao Xà Lá"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <button type="button" class="btn-submit open-modal-btn">Tải chi tiết giá</button>
+              </article>
+
+              <article class="floorplan-card">
+                <h3>Căn 3 phòng ngủ</h3>
+                <p>Phù hợp gia đình nhiều thế hệ, cần không gian rộng rãi và riêng tư.</p>
+                <ul>
+                  <li>Diện tích khoảng 90–120 m².</li>
+                  <li>Phù hợp ở lâu dài và nhóm gia đình muốn không gian rộng.</li>
+                  <li>Thiết kế dễ bố trí, tối ưu công năng và sinh hoạt chung.</li>
+                </ul>
+                <img
+                  src="./img/Mat-bang-can-3-phong-ngu-Vinhomes-Cao-Xa-La.jpg"
+                  alt="Mặt bằng căn hộ 3 phòng ngủ Vinhomes Cao Xà Lá"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <button type="button" class="btn-submit open-modal-btn">Tải chi tiết giá</button>
+              </article>
+
+              <article class="floorplan-card">
+                <h3>4PN / Duplex / Penthouse</h3>
+                <p>Diện tích lớn, phù hợp khách hàng tìm trải nghiệm sống cao cấp.</p>
+                <ul>
+                  <li>Diện tích khoảng 124–300 m².</li>
+                  <li>Không gian rộng, nhiều phòng chức năng và view cao cấp.</li>
+                  <li>Phù hợp mục tiêu đầu tư hoặc mua ở cao cấp.</li>
+                </ul>
+                <img
+                  src="./img/Mat-bang-can-Dual-Key-Vinhomes-Cao-Xa-La.jpg"
+                  alt="Mặt bằng căn hộ diện tích lớn Vinhomes Cao Xà Lá"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <button type="button" class="btn-submit open-modal-btn">Tải chi tiết giá</button>
+              </article>
+            </div>
+            <!-- <div class="cta-download lead-form-card">
               <h3>Nhận tư vấn chọn căn theo nhu cầu sử dụng</h3>
               <p>
                 Mỗi nhóm khách hàng cần một loại căn khác nhau. Tư vấn chọn căn nên dựa trên số người ở, ngân sách,
                 hướng di chuyển, nhu cầu vay và mục tiêu mua ở hoặc đầu tư.
               </p>
-              <div style="margin-top: 15px">
-                <button class="btn-submit open-modal-btn" style="width: auto; padding: 12px 30px">
-                  TƯ VẤN CHỌN CĂN PHÙ HỢP
-                </button>
-              </div>
-            </div>
+              <form id="cta-form-2" class="visible-lead-form">
+                <div class="form-group">
+                  <input type="text" name="fullname" placeholder="Họ và tên" required />
+                </div>
+                <div class="form-group">
+                  <input type="tel" name="phone" placeholder="Số điện thoại" required />
+                </div>
+                <input type="text" name="website" style="display: none" tabindex="-1" autocomplete="off" />
+                <button type="submit" class="btn-submit">TƯ VẤN CHỌN CĂN PHÙ HỢP</button>
+                <p class="cta-note">Bảng giá, tài liệu sẽ được gửi qua Zalo ngay sau khi đăng ký.</p>
+              </form>
+            </div> -->
           </div>
-
 
           <div id="pricing">
             <h2>Giá bán Vinhomes Cao Xà LÁ</h2>
             <p>
-              Giá bán là phần được tìm kiếm nhiều nhất nhưng cũng dễ gây hiểu nhầm nhất. Một mức giá theo m2 chưa phản
-              ánh đầy đủ giá trị căn hộ. Cần xem tổng giá trị căn, số tiền cần thanh toán ban đầu, tiến độ thanh toán,
-              chính sách vay, lãi suất sau ưu đãi, phí bảo trì, chi phí nội thất và chi phí quản lý hằng tháng.
+              Giá bán Vinhomes Cao Xà Lá dự kiến được định vị trong phân khúc trung – cao cấp, phù hợp với chất lượng
+              quy hoạch, hệ thống tiện ích đồng bộ và vị trí đắc địa của dự án. Mức giá có thể thay đổi tùy theo loại
+              hình căn hộ, diện tích, hướng view và từng thời điểm mở bán.
             </p>
-            <p>
-              Với một dự án ở khu trung tâm, giá mở bán thường chịu ảnh hưởng bởi vị trí, thương hiệu, tiến độ, chính
-              sách tài chính và sức mua của thị trường. Nếu giá mua ban đầu hợp lý so với các dự án đã bàn giao quanh
-              Thanh Xuân - Đống Đa - Hà Đông, dự án có lợi thế cạnh tranh. Nếu giá mua ban đầu quá cao, nhà đầu tư cần
-              tính toán kỹ hơn về dòng tiền thuê và mức tăng giá trong trung hạn.
-            </p>
+
             <div class="data-table-box">
               <table class="data-table">
                 <tr>
@@ -453,27 +433,27 @@
                 </tr>
                 <tr>
                   <td>1PN</td>
-                  <td>Khoảng 45-55 m²</td>
+                  <td>~45-55 m²</td>
                   <td>Khoảng 7 – 10 tỷ</td>
                 </tr>
                 <tr>
                   <td>2PN</td>
-                  <td>Khoảng 65-85 m²</td>
+                  <td>~65-85 m²</td>
                   <td>Khoảng 10 – 15 tỷ</td>
                 </tr>
                 <tr>
                   <td>3PN</td>
-                  <td>Khoảng 90-120 m²</td>
+                  <td>~90-120 m²</td>
                   <td>Khoảng 15 – 22 tỷ</td>
                 </tr>
                 <tr>
                   <td>4PN</td>
-                  <td>Khoảng 130 – 138 m²</td>
+                  <td>~130 – 138 m²</td>
                   <td>Khoảng 23 – 30 tỷ</td>
                 </tr>
                 <tr>
                   <td>Penthouse</td>
-                  <td>Khoảng 150 – 300 m²</td>
+                  <td>~150 – 300 m²</td>
                   <td>Khoảng 30 - 40 tỷ</td>
                 </tr>
               </table>
@@ -482,10 +462,9 @@
           <div id="highlights">
             <h2>Có nên mua Vinhomes Cao Xà Lá để ở hoặc đầu tư?</h2>
             <p>
-              Không có dự án nào phù hợp với tất cả mọi người. Vinhomes Cao Xà Lá đáng quan tâm nếu nhu cầu ưu tiên là
-              vị trí nội đô, kết nối thuận tiện, tiện ích đồng bộ và khả năng mua căn hộ trong khu vực đã có sẵn nhịp
-              sống. Tuy nhiên, quyết định mua nên dựa trên bảng giá thực tế, loại căn cụ thể và khả năng tài chính của
-              từng khách hàng.
+              Vinhomes Cao Xà Lá là lựa chọn phù hợp cho cả nhu cầu an cư và đầu tư nhờ vị trí nội đô, khả năng kết nối
+              thuận tiện và hệ thống tiện ích đồng bộ của Vinhomes. Dự án đáp ứng tốt nhu cầu ở thực trong khu vực trung
+              tâm, đồng thời có tiềm năng gia tăng giá trị theo thời gian.
             </p>
             <h3>5 lý do dự án có sức hút</h3>
             <ul>
@@ -523,44 +502,59 @@
             </div> -->
 
             <h3>Câu hỏi thường gặp về Vinhomes Cao Xà Lá</h3>
-            <p><strong>Vinhomes Cao Xà Lá có phù hợp mua để ở không?</strong></p>
-            <p>
-              Phù hợp nếu nhu cầu chính là sống trong khu vực Thanh Xuân - Nguyễn Trãi, cần kết nối nội đô tốt và ưu
-              tiên tiện ích đồng bộ. Cần kiểm tra thêm giá, chính sách và loại căn cụ thể.
-            </p>
-            <p><strong>Nên chọn căn 1PN, 2PN hay 3PN?</strong></p>
-            <p>
-              Căn 1PN phù hợp đầu tư cho thuê hoặc nhu cầu ở nhỏ. Căn 2PN cân bằng nhất giữa nhu cầu sử dụng và khả năng
-              bán lại. Căn 3PN phù hợp gia đình muốn ở lâu dài và cần không gian rộng.
-            </p>
-            <p><strong>Giá bán nên so sánh với dự án nào?</strong></p>
-            <p>
-              Nên so sánh với các dự án đã bàn giao hoặc đang bán quanh Thanh Xuân, Royal City, Ngã Tư Sở, Hà Đông, Đống
-              Đa và các dự án Vinhomes có vị trí, tiện ích tương đương.
-            </p>
-            <p><strong>Thông tin trên website có phải thông tin giao dịch cuối cùng không?</strong></p>
-            <p>
-              Thông tin trên website mang tính tham khảo. Giá bán, chính sách, tiến độ, pháp lý và tiêu chuẩn bàn giao
-              cần được đối chiếu với tài liệu cập nhật tại thời điểm giao dịch.
-            </p>
+            <div class="faq-list">
+              <details class="faq-item">
+                <summary>Vinhomes Cao Xà Lá có phù hợp mua để ở không?</summary>
+                <div class="faq-answer">
+                  <p>
+                    Phù hợp nếu nhu cầu chính là sống trong khu vực Thanh Xuân - Nguyễn Trãi, cần kết nối nội đô tốt và
+                    ưu tiên tiện ích đồng bộ. Cần kiểm tra thêm giá, chính sách và loại căn cụ thể.
+                  </p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>Nên chọn căn 1PN, 2PN hay 3PN?</summary>
+                <div class="faq-answer">
+                  <p>
+                    Căn 1PN phù hợp đầu tư cho thuê hoặc nhu cầu ở nhỏ. Căn 2PN cân bằng nhất giữa nhu cầu sử dụng và
+                    khả năng bán lại. Căn 3PN phù hợp gia đình muốn ở lâu dài và cần không gian rộng.
+                  </p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>Giá bán nên so sánh với dự án nào?</summary>
+                <div class="faq-answer">
+                  <p>
+                    Nên so sánh với các dự án đã bàn giao hoặc đang bán quanh Thanh Xuân, Royal City, Ngã Tư Sở, Hà
+                    Đông, Đống Đa và các dự án Vinhomes có vị trí, tiện ích tương đương.
+                  </p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>Thông tin trên website có phải thông tin giao dịch cuối cùng không?</summary>
+                <div class="faq-answer">
+                  <p>
+                    Thông tin trên website mang tính tham khảo. Giá bán, chính sách, tiến độ, pháp lý và tiêu chuẩn bàn
+                    giao cần được đối chiếu với tài liệu cập nhật tại thời điểm giao dịch.
+                  </p>
+                </div>
+              </details>
+            </div>
           </div>
         </div>
         <aside class="sidebar">
           <div class="sidebar-box">
             <h3>NHẬN BẢNG GIÁ & MẶT BẰNG</h3>
-            <p class="form-desc">Tài liệu cập nhật qua Zalo</p>
+            <p class="form-desc">Tài liệu, bảng giá cập nhật mới nhất hôm nay</p>
             <form id="contact-form">
               <div class="form-group">
-                <label>Họ và tên</label><input type="text" name="fullname" placeholder="Họ và tên" required />
+                <input type="text" name="fullname" placeholder="Họ và tên" required />
               </div>
               <div class="form-group">
-                <label>Số điện thoại</label><input type="tel" name="phone" placeholder="09xx xxx xxx" required />
+                <input type="tel" name="phone" placeholder="Số điện thoại" required />
               </div>
               <input type="text" name="website" style="display: none" tabindex="-1" autocomplete="off" />
-              <div class="form-note">
-                <strong>Tài liệu nhận được:</strong><br />Bảng giá, mặt bằng, chính sách thanh toán và gợi ý căn theo
-                ngân sách. Thông tin được gửi qua Zalo sau khi đăng ký.
-              </div>
+              <div class="form-note">Bảng giá, tài liệu sẽ được gửi qua Zalo ngay sau khi đăng ký.</div>
               <button type="submit" class="btn-submit">NHẬN TÀI LIỆU</button>
             </form>
           </div>
@@ -571,17 +565,17 @@
       <div class="modal-content">
         <span class="close-modal">&times;</span>
         <div class="sidebar-box" style="margin-top: 0; border: none; box-shadow: none">
-          <h3>ĐĂNG KÝ NHẬN TÀI LIỆU</h3>
+          <h3>NHẬN BẢNG GIÁ VÀ TÀI LIỆU</h3>
           <p class="form-desc">Bảng giá, mặt bằng và chính sách mới nhất</p>
           <form id="modal-contact-form">
             <div class="form-group">
-              <label>Họ và tên</label><input type="text" name="fullname" placeholder="Họ và tên" required />
+              <input type="text" name="fullname" placeholder="Họ và tên" required />
             </div>
             <div class="form-group">
-              <label>Số điện thoại</label><input type="tel" name="phone" placeholder="09xx xxx xxx" required />
+              <input type="tel" name="phone" placeholder="Số điện thoại" required />
             </div>
             <input type="text" name="website" style="display: none" tabindex="-1" autocomplete="off" />
-            <div class="form-note">Tư vấn viên sẽ gửi tài liệu qua Zalo và hỗ trợ so sánh căn theo nhu cầu.</div>
+            <div class="form-note">Bảng giá, tài liệu sẽ được gửi qua Zalo ngay sau khi đăng ký.</div>
             <button type="submit" class="btn-submit">NHẬN TÀI LIỆU NGAY</button>
           </form>
         </div>
@@ -599,12 +593,20 @@
           <p>Hotline hỗ trợ: 0362.567.898</p>
           <p>Email: quandang2412@gmail.com</p>
         </div>
+        <div>
+          <h4>Cam kết bảo mật</h4>
+          <p class="footer-security">Chúng tôi cam kết giữ an toàn thông tin cá nhân của bạn và không tiết lộ, mua bán hoặc chia sẻ cho bên thứ ba, trừ khi có sự đồng ý của bạn hoặc theo quy định của pháp luật.</p>
+        </div>
       </div>
       <div class="container" style="text-align: center; margin-top: 20px; font-size: 11px; opacity: 0.5">
         Thông tin trên website chỉ mang tính tham khảo và cần được đối chiếu với tài liệu cập nhật tại thời điểm giao
         dịch.
       </div>
     </footer>
+    <a href="https://zalo.me/0362567898" class="zalo-fixed-button" target="_blank" rel="noopener noreferrer">
+      <img src="./img/zalo.png" alt="Zalo" />
+      <span>Zalo</span>
+    </a>
     <script src="main.js"></script>
   </body>
 </html>

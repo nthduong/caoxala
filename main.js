@@ -83,9 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => {
       if (!modal) return;
       modal.style.display = "flex";
-      // accessibility: focus first input in modal
-      const firstInput = modal.querySelector('input[name="fullname"]') || modal.querySelector("input");
-      if (firstInput) firstInput.focus();
     });
   });
 
@@ -182,6 +179,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   handleFormSubmit("contact-form");
   handleFormSubmit("modal-contact-form");
+  handleFormSubmit("cta-form-1");
+  handleFormSubmit("cta-form-2");
 
   // --- Scroll effect for header ---
   window.addEventListener("scroll", () => {
