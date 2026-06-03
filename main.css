@@ -357,7 +357,7 @@ body {
   .zalo-fixed-button {
     left: 12px;
     bottom: 24px;
-    padding: 2px 4px;
+    padding: 4px 4px;
     padding-right: 10px;
     gap: 4px;
   }
@@ -368,7 +368,7 @@ body {
   }
 
   .zalo-fixed-button span {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -962,7 +962,7 @@ h2.heading-first {
   border-radius: 4px;
   background-color: #f8f8f8;
   color: #1d1d1d;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .visible-lead-form input::placeholder {
@@ -992,7 +992,7 @@ h2.heading-first {
 }
 
 .visible-lead-form button:hover {
-  background: #000;
+  background: #c59a5e;
   transform: translateY(-1px);
 }
 
