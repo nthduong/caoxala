@@ -587,7 +587,7 @@ h2.heading-first {
   color: var(--primary-color);
   font-size: 18px;
   margin: 15px 0 15px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   border-left: none;
   padding-left: 0;
   font-weight: bold;
